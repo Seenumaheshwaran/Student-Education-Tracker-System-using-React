@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section{
+    display:flex;
+  }
+.sidebar{
+    text-align: center;
+    box-shadow: 0px 3px 2px rgba(0,0,0,0.2);
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 7px;
+    color: black;
+}
+.sidebar i{
+    font-size: 36px;
+    text-align: center;
+}
+  .dashboard{
+    width:200px;
+    height: 125vh;
+    background-color: blue;
+    color:white;
+  }
+  
+  .dashboard div{
+  padding: 25px 5px;
+  }
+  
+  
+  .dashboard h1{
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .content{
+    background-color: whitesmoke;
+    width:100%;
+    height:125vh;
+  }
+  
+  .container{
+    display: flex;
+    max-width: 1000px;
+    margin:20px auto;
+  }
+  
+  .header{
+    background-color: rgb(82, 82, 198);
+    color: white;
+    padding:20px 10px;
+  }
+  
+  .regularcard,.remedialcard,.clubcard{
+    margin:15px;
+    color:white;
+    border-radius: 10px;
+    padding:20px;
+    padding-bottom: 30px;
+  } 
+
+  .regularcard,.remedialcard,.clubcard i{
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .container h1{
+    font-size: 30px;
+    text-align: right;
+  }
+  .container{
+    margin-left: 150px;
+  }
+  .regularcard{
+    background-color: rgb(223, 62, 25);
+  }
+  .remedialcard{
+    background-color: rgb(129, 24, 153);
+  }
+  
+  .clubcard{
+    background-color: rgb(0, 204, 54);
+  }
+  
+  .menu{
+    text-align: center;
+  }
+  
+  .menu-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 800px;
+    margin:10px auto;
+  }
+  
+  .menu-content h1{
+    font-size: 20px;
+  }    
+  .menu-profile{
+    text-align: center;
+    box-shadow: 0px 3px 2px rgba(0,0,0,0.2);
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 7px;
+    color: black;
+    padding: 30px;
+  }
+  .menu-profile i{
+    font-size: 36px;
+    text-align: center;
+  }
